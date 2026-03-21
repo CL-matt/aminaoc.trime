@@ -1,0 +1,6 @@
+# luna_pinyin.custom.yaml
+patch:
+  "schema/name": aminaoc
+  "schema/schema_id": 阿米诺斯语
+  engine/filters/+:
+    - lua_filter@conlang_filter
