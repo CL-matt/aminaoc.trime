@@ -18,5 +18,5 @@
    - 打开同文输入法，点击 **“部署”**。
 
 5. **皮肤美化**：
-  - [菊韻同文主題]（https://github.com/HoengSaan/trime-gukwan）
+  - [菊韻同文主題](https://github.com/HoengSaan/trime-gukwan)
   - 后续会自研皮肤
