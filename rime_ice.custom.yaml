@@ -1,0 +1,5 @@
+# rime_ice.custom.yaml
+patch:
+  "schema/name": "aminaoc"
+  "schema/schema_id": "阿米诺斯语"
+  "engine/filters/@before 0": lua_filter@conlang_filter

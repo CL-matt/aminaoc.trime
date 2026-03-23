@@ -12,12 +12,12 @@ function conlang_filter(input, env)
     -- 保持底层逻辑为 n-i-h-a-o
     local final_str = clean_input
     
-    -- 把最后一个字母大写
-    if length > 0 then
-        local prefix = string.sub(final_str, 1, length - 1)
-        local last_char = string.upper(string.sub(final_str, length, length))
-        final_str = prefix .. last_char
-    end
+    -- -- 把最后一个字母大写
+    -- if length > 0 then
+    --     local prefix = string.sub(final_str, 1, length - 1)
+    --     local last_char = string.upper(string.sub(final_str, length, length))
+    --     final_str = prefix .. last_char
+    -- end
 
     -- 加上 RLO (强制从右向左覆盖) 和 PDF (状态闭合)
     final_str = "\226\128\174" .. final_str .. "\226\128\172"
