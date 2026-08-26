@@ -1,4 +1,4 @@
-# Aminaoc-Rime (阿米诺斯语输入法)
+# Aminoac-Rime (阿米诺斯语输入法)
 
 基于 Rime 的阿米诺斯语专用输入方案。
 
